@@ -1,0 +1,16 @@
+# 模型位置(这个不用动)
+MODEL_FILE_PATH: D:\Python\computer_vision\unet_NOT\weights\unet_dataset_0\unet_finished.pth
+# 裁剪后视频
+VIDEO_DIR: F:\Video\behavioral_experiment\jsm20240730\resized\resized_not
+# 识别后mask视频
+PROCESSED_VIDEO_DIR: F:\Video\behavioral_experiment\jsm20240730\resized\result_not\processed
+# 以图片为背景未校正路径图
+PATH_FIG_DIR: F:\Video\behavioral_experiment\jsm20240730\resized\result_not\path 
+# 未校正坐标
+ORIGINAL_PATH_DIR: F:\Video\behavioral_experiment\jsm20240730\resized\result_not\loc
+# 边界坐标文件夹
+BORDER_COORDINATE_DIR: F:\Video\behavioral_experiment\jsm20240730\resized\result_not\border
+# 校正后坐标和无背景矫正路径图
+RECTIFY_PATH_DIR: F:\Video\behavioral_experiment\jsm20240730\resized\result_not\rectify
+# 统计文件
+STATS_FILE: F:\Video\behavioral_experiment\jsm20240730\resized\result_not\statistics.csv 
